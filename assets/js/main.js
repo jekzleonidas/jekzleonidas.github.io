@@ -255,4 +255,9 @@
 
 		}
 
+		// Year Update
+		var date = new Date();
+        var res = date.getFullYear();
+		$('#copyright ul li').html("&copy; Reserved " + res);
+
 })(jQuery);
